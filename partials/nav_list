@@ -1,0 +1,5 @@
+<ul class="nav nav-list cks-sidebar">
+  {{# site.navigation?to_pages }}
+    {{> pages_list }}
+  {{/ site.navigation?to_pages }}
+</ul>
