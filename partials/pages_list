@@ -1,7 +1,6 @@
 {{#is_active_page }}
   <li class="active">
     <a href="{{url}}" class="active">
-      <i class="pull-right"></i>
       {{title}}
     </a>
   </li>
@@ -10,7 +9,6 @@
 {{^is_active_page}}
   <li>
     <a href="{{url}}">
-      <i class="pull-right"></i>
       {{title}}
     </a>
   </li>
