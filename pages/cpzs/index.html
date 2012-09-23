@@ -1,0 +1,30 @@
+---
+title: 产品展示
+description:
+chanpin_list:
+  - name: 桂花
+  - name: 红枫
+  - name: 茶花
+list:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+---
+{{# page.chanpin_list}}
+<div class="row">
+  <ul class="img-list">
+    {{# page.list}}
+      <li class="pull-left">
+        <img src="{{ urls.media }}/{{ name }}/{{ . }}.jpg" alt="" />
+      </li>
+    {{/ page.list}}
+  </ul>
+</div>
+{{/ page.chanpin_list}}

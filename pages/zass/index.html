@@ -1,0 +1,31 @@
+---
+title: 珠岸山水
+description:
+fengjing_list:
+  - name: 珠岸前山
+  - name: 珠岸前溪
+  - name: 珠岸村
+list:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+---
+
+{{# page.fengjing_list}}
+<div class="row">
+  <ul class="img-list">
+    {{# page.list}}
+      <li class="pull-left">
+        <img src="{{ urls.media }}/{{ name }}/{{ . }}.jpg" alt="" />
+      </li>
+    {{/ page.list}}
+  </ul>
+</div>
+{{/ page.fengjing_list}}
