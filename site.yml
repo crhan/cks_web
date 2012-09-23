@@ -1,16 +1,18 @@
-title : Blog Title
-tagline: Blog Tagline
+title : 永嘉县沙头镇珠岸花木场
+tagline: 
 author :
-  name : Firstname Lastname
-  email : blah@email.test
+  name : Ruohan Chen
+  email : crhan123@gmail.com
   github : username
   twitter : username
   feedburner : feedname
 
 navigation :
-  - archive.html
-  - tags.html
-  - categories.html
-  - pages.html
-  - about.md
-  
+  - index.md
+  - xwdt/index.html
+  - cpzs/index.html
+  - jszz/index.md
+  - zass/index.html
+  - zatc/index.md
+  - khly/index.md
+  - lxwm/index.md
