@@ -1,0 +1,18 @@
+{
+  stylesheets: {
+    default: [
+      "bootstrap.css",
+      "typo.css",
+      "style.css",
+    ],
+  },
+
+  javascripts: {
+    default: [
+    ]
+  },
+
+  manifest: {
+    author: "Ruohan Chen",
+  }
+}
