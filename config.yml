@@ -3,7 +3,7 @@
 
 RuhohSpec: '1.0'
 theme : cks
-production_url : http://cks.com
+production_url : http://yongjiahm.com
 
 posts:
   permalink: /:categories/:title/
