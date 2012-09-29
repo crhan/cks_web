@@ -16,3 +16,6 @@ navigation :
   - zatc/index.md
   - khly/index.html
   - lxwm/index.md
+
+plugins:
+  google_site_verification: googlef056ebc4b89ca27a
